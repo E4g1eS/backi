@@ -1,4 +1,3 @@
-from msilib.schema import Class
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
