@@ -157,7 +157,7 @@ class Backuper:
                     print("Copied.", end=" ")
 
         self.__backup_progress_bar["value"] = 0.0
-        print("######################################")
+        print("\n######################################")
 
         if self.__failed:
             self.__backup_progress_label.configure(text="Done with errors!")
